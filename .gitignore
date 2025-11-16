@@ -1,1 +1,56 @@
-bin
+# Binaries and executables
+bin/
+.tools/
+.gopath/
+.data/
+.logs/
+docs/private/
+**/*.md
+!README.md
+*.exe
+*.dll
+*.so
+*.dylib
+hotel-reservation
+hotel-reservation-app
+notification-service
+seed
+*.test
+
+# Environment files
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Go module cache
+go.sum.backup
+
+# Docker volumes (if running locally)
+mongo-data/
